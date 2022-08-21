@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import API from '../API';
+import Movie from '../components/Movie';
 
 export const useMovieFetch = movieId => {
   const [state, setState] = useState({});
